@@ -25,7 +25,7 @@
     <parent>
         <groupId>com.practice.test2</groupId>
         <artifactId>aem-practicetest2-deployment</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.8-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -34,6 +34,8 @@
     <description>UI Tests for Practice Test Project Two</description>
 
     <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <node.version>v12.16.3</node.version>
         <npm.version>6.14.4</npm.version>
